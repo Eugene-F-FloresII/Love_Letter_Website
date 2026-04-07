@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Love Letter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="scene" id="scene">
+    <div class="orb one" aria-hidden="true"></div>
+    <div class="orb two" aria-hidden="true"></div>
+    <div class="orb three" aria-hidden="true"></div>
+
+    <section class="stage" aria-label="Interactive love letter">
+      <div class="envelope-wrap">
+        <p class="hint" id="hint">Tap the envelope</p>
+        <button class="envelope-btn" id="openBtn" aria-label="Open love letter">
+          <div class="envelope-shell">
+            <div class="flap"></div>
+            <div class="seal" aria-hidden="true">&#10084;</div>
+
+            <article class="letter" aria-live="polite">
+              <h1 class="letter-title">My Love,</h1>
+              <p class="typed" id="typed"></p>
+              <p class="signature" id="signature">With love, [Your Name]</p>
+            </article>
+          </div>
+        </button>
+      </div>
+
+      <div class="controls" id="controls">
+        <button class="replay" id="replayBtn" type="button">Replay letter</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
