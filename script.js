@@ -1,9 +1,19 @@
 const LETTER_TEXT = `From the moment you came into my life,
 everything felt a little softer, warmer, and brighter.
 
+Even though at times we argue, it doesnt reach to a point where we fight full on 
+and that goes to show that we are capable of wanting to understand each other.
+Thats what I love about this relationship we have.
+
+Watching you grow and seeing the person you continue to become
+is one of my greatest joys. I can't wait to see all the beautiful things
+this next year holds for you.
+
 This little letter is just a reminder:
 you are deeply loved, endlessly appreciated,
-and forever in my heart.`;
+and forever in my heart.
+
+Happy birthday to my favorite person.`;
 
 const TYPE_SPEED_MS = 45;
 const PUNCTUATION_PAUSE_MS = 210;
